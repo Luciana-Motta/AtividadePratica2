@@ -26,7 +26,7 @@ no* insert(int data)
    p->setProx(NULL);
    if(vet[i] == NULL)
        vet[i]->setProx(p);
-   else
+   else 
    {
        no *q = vet[i]
        while(q->getProx() != NULL)
