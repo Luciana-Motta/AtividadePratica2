@@ -15,7 +15,18 @@ hash::hash(int m , func_hash hs)
 }
 hash::~hash()
 {
-    //dtor
+    for( int i = 0 ; i < tam ; i++ )
+    {
+        no *p = vet[i]
+        no *q = p
+        while( p != NULL ) 
+        {
+            q = p->getProx(); 
+            delet p;
+            p = q;
+        }
+
+    {
 }
 
 no* insert(int data)
